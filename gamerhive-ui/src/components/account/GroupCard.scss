@@ -1,0 +1,61 @@
+.group-card {
+  border: 1px solid black;
+}
+
+.group-title a {
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    padding: 0 20px;
+}
+.group-title {
+    background-color: #01012b;
+    color: white;
+    padding: .5rem;
+}
+
+.group-card__body {
+    display: flex;
+    gap: 1rem;
+    background-color: #ff2a6d;
+    color: white;
+    padding: 1rem;
+}
+
+.group-card__footer {
+    display: flex;
+    
+} 
+
+.group-card__footer button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    background-color: #01012b;
+    padding: 1rem;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+    outline: none!important;
+    border: none;
+}
+
+.group-card__footer button:hover {
+    background-color: #ff2a6d;
+    cursor: pointer;
+    border-top: 1px solid #01012b;
+}

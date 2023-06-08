@@ -1,0 +1,83 @@
+.community-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
+    background-color: #fff;
+    position: sticky;
+    top: calc(69px ) ;
+    width: fit-content;
+}
+
+.community-card-header {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.community-card-header img {
+    width: 70px;
+}
+
+.community-card-body ul {
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.community-card-body li {
+    padding: 10px 5px;
+    position: relative;
+    color: #1c1c1c;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around
+}
+
+
+
+.community-card-body hr {
+    border: none;
+    border-top: 1px solid #EDEFF1;
+    padding: 0;
+    margin: 0;
+}
+
+.community-remove-button {
+    font-family: 'Ubuntu', sans-serif;
+    
+    color: white;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 10px;
+    background-color: #ff2a6d;
+    border-radius: 3px;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+    outline: none!important;
+    border: none;
+}
+
+.community-remove-button:hover {
+    background-color: transparent;
+    border: 1px solid #ff2a6d;
+    color: #ff2a6d;
+    cursor: pointer;
+}

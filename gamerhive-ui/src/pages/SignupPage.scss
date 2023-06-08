@@ -1,0 +1,52 @@
+.flbox {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.haveAccountLabel {
+    color: #999;
+    line-height: 1.2;
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 3px;
+}
+
+.haveAccountLink {
+  
+    color: #ff2a6d;
+    line-height: 1.4;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.haveAccountLink:focus {
+    text-decoration: underline;
+    color: #ff2a6d;
+    
+}
+
+.haveAccount {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}

@@ -1,0 +1,70 @@
+.home-aside-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 10px 10px 10px;
+  background-color: #fff;
+}
+
+.home-aside-card-header {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 20px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  height: 100px;
+  overflow: hidden;
+}
+
+.home-aside-card-header img {
+  width: 100%;
+}
+
+.home-aside-card-body ul {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.home-aside-card-body li {
+  padding: 10px 5px;
+  position: relative;
+  color: #1c1c1c;
+  font-size: 0.8rem;
+}
+
+.home-aside-card-body hr {
+  border: none;
+  border-top: 1px solid #edeff1;
+  padding: 0;
+  margin: 0;
+}
+
+.home-aside-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.52rem;
+  margin-top: 1rem;
+}
+
+.home-aside-button {
+  border-radius: 2rem;
+  color: #ee3e38;
+  background-color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  font: inherit;
+  border: 1px solid #ee3e38;
+  transition: 0.3s;
+}
+
+.home-aside-button:hover {
+  color: white;
+  background-color: #ee3e38;
+}

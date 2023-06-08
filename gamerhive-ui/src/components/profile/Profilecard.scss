@@ -1,0 +1,116 @@
+.profile-card {
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 0px;
+}
+
+.cover-photo {
+  position: relative;
+  height: 200px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cover-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.profile-picture {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-picture:hover::before,
+.cover-photo:hover::before {
+  content: 'Update Picture';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 2rem;
+}
+
+.profile-details {
+  flex-grow: 1;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.city {
+  font-size: 14px;
+  color: #777;
+}
+
+
+/* Rest of the CSS code remains the same */
+
+
+.profile-card .divider {
+  margin: 20px 0;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+.section h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section .content {
+  font-size: 14px;
+  color: #555;
+}
+
+
+.prof-info {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 12rem;
+  align-items: center;
+}

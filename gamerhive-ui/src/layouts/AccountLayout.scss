@@ -1,0 +1,40 @@
+.account-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.account-page-wrapper {
+    width: 390px;
+    background: #d1f7ff;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 90px;   
+}
+
+.account-page-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.account-page-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #403866;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 51px;
+}

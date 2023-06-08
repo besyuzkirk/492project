@@ -1,0 +1,39 @@
+.trending {
+    border: 1px solid black;
+    width: 65%;
+    margin: auto;
+    display: flex;
+}
+
+.trending-now-card {
+    position: relative;
+    width: 25%;
+    overflow: hidden;
+  }
+  
+  .trending-now-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .text {
+    font-size: 10px;
+    margin: 0;
+  }
+  

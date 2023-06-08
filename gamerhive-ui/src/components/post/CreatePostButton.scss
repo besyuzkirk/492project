@@ -1,0 +1,166 @@
+.create-post-card {
+  background-color: white;
+  border-radius: .3rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.create-post-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-post-card label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.create-post-card input[type='radio'] {
+  margin-right: 5px;
+}
+
+.create-post-card input[type='text'],
+.create-post-card textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-post-card textarea {
+  height: 100px;
+}
+
+.create-post-card .create-post-image-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.create-post-file-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.create-post-file-input > div {
+  display: flex;
+  align-items: center;
+}
+
+.create-post-file-input > div > label {
+  margin-right: 10px;
+}
+
+.create-post-drag-drop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  margin-left: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+.create-post-drag-drop p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.create-post-drag-drop p:last-of-type {
+  font-size: 16px;
+  color: #aaa;
+  margin-top: 0;
+}
+
+.drag-over {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.create-post-card .create-post-image-input label {
+  margin-bottom: 10px;
+}
+
+.create-post-card .create-post-image-preview {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.create-post-card .create-post-survey-input {
+  margin-top: 10px;
+}
+
+.create-post-card .create-post-survey-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-post-card .create-post-survey-option {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: .5rem;
+  width: 100%;
+}
+
+
+.create-post-card .create-post-survey-options input {
+  box-sizing: border-box;
+}
+
+.create-post-card .create-post-survey-add {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: space-evenly;
+}
+
+.create-post-card .create-post-survey-add label {
+  margin-right: 5px;
+}
+
+.create-post-card .create-post-survey-add button {
+  border: none;
+  background-color: #ccc;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-post-card button[type="submit"] {
+  background-color: white;
+  color: #EE3E38 ;
+  border: 1px solid #EE3E38;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ;
+  cursor: pointer;
+}
+
+.create-post-card button[type="submit"]:hover {
+  
+  background-color: #EE3E38;
+  color: white;
+}
+.create-post-community-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.back-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

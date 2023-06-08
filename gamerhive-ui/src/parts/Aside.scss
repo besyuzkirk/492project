@@ -1,0 +1,22 @@
+.aside-layout {
+    flex: 1;
+    background-color: transparent;
+    position: sticky;
+    top: calc(69px ) ;
+    display: inline-block;
+    border-radius: .3rem;
+}
+
+.content-policy {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #7c7c7c;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-policy a {
+    color: blue;
+    text-decoration: none;
+}
